@@ -1,11 +1,12 @@
 def line(line)
-  if line.length == 0
+  myLine = []
+  if deliLine.length == 0
     puts "The line is currently empty."
-  elsif line.length > 0
-    line.each_with_index do |name, index|
-    puts "The line is currently: #{index}. #{name} "  
+  elsif deliLine.length > 0
+    deliLine.each_with_index do |name, index|
+    myLine.push("#{index + 1}. #{name} ")  
   end
- 
+  puts "The line is currently: #{myLine}"
 end
 
 def take_a_number(line, name)
