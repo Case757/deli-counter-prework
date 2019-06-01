@@ -6,6 +6,7 @@ def line(myLine)
     deliLine.each_with_index do |name, index|
     myLine.push("#{index + 1}. #{name} ")  
   end
+  end
   puts "The line is currently: #{myLine}"
 end
 
