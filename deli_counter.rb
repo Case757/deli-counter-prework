@@ -9,6 +9,7 @@ def line(myLine)
   puts "The line is currently: #{myLine}"
 end
 
+end
 def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
@@ -21,5 +22,4 @@ def now_serving(line)
   end
   puts "Currently serving #{line[0]}."
   line.shift
-end
 end
