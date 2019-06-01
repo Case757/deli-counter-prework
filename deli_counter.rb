@@ -3,7 +3,7 @@ def line(line)
     puts "The line is currently empty."
   elsif line.length > 0
     line.each_with_index do |name, index|
-    puts "The line is currently: #{"  
+    puts "The line is currently: #{index}. #{name} "  
   end
  
 end
