@@ -8,7 +8,7 @@ def line(deliLine)
     myLine.push(" #{index + 1}. #{name}")  
   end
   end
-  puts "The line is currently: #{myLine.join}"
+  puts "The line is currently:#{myLine.join}"
 end
 
 
