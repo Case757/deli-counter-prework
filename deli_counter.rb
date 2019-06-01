@@ -1,4 +1,4 @@
-def line(line)
+def line(myLine)
   myLine = []
   if deliLine.length == 0
     puts "The line is currently empty."
