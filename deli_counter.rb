@@ -1,9 +1,9 @@
-def line(deliLine)
-  myLine = []
-  if deliLine.length == 0
+def line(line)
+  line = []
+  if line.length == 0
     puts "The line is currently empty."
-  elsif deliLine.length > 0
-    deliLine.each_with_index do |name, index|
+  elsif line.length > 0
+    line.each_with_index do |name, index|
     myLine.push("#{index + 1}. #{name} ")  
   end
   puts "The line is currently: #{myLine}"
