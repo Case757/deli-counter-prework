@@ -7,6 +7,7 @@ def line(line)
     myLine.push("#{index + 1}. #{name} ")  
   end
   puts "The line is currently: #{myLine}"
+end
 
 def take_a_number(line, name)
   line.push(name)
