@@ -2,7 +2,7 @@ def line(line)
   myLine = []
   if deliLine.length == 0
     puts "The line is currently empty."
-  elsif deliLine.length > 0
+  else deliLine.length
     deliLine.each_with_index do |name, index|
     myLine.push("#{index + 1}. #{name} ")  
   end
