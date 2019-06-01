@@ -6,6 +6,6 @@ def line(line)
     line.each_with_index do |name, index|
     myLine.push("#{index}. #{name} ")  
   end
-  return "The line is currently: #{myLine}"
+  puts "The line is currently: #{myLine}"
 end
     
