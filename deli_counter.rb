@@ -1,6 +1,10 @@
 def line(line)
+  myLine = []
   if line.length == 0
     puts "The line is currently empty."
-  end
+  else
+    line.each_with_index do |name, index|
+    myLine.push("#{index}. #{name} ")  
+    return "The line is currently: #{myLine}"
 end
     
