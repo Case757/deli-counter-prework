@@ -15,4 +15,6 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-  puts ""
+  puts "Currently serving #{line[1]}."
+  line.shift
+  
